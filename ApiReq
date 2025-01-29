@@ -1,0 +1,18 @@
+import requests
+
+API_URL = 'https://api.totalgpt.ai/v1/models'
+API_KEY = '' 
+
+headers = {
+    'Authorization': f'Bearer {API_KEY}'
+}
+
+response = requests.get(API_URL, headers=headers)
+
+if response.status_code == 200:
+    models = response.json().get('data', [])
+    print("Available Models:")
+    for model in models:
+        print(model['id'])
+else:
+    print(f"Error: {response.status_code} - {response.text}")
