@@ -1,8 +1,8 @@
 # InfAPI-Models
 Infermatic get models
 
-#how to use
+# how to use
 
-*open code and place your key into api key field.
+* open code and place your key into api key field.
 
-*run code
+* run code
