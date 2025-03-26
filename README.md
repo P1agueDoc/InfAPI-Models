@@ -1,5 +1,5 @@
 # InfAPI-Models
-Infermatic get models
+Infermatic 'get' models code
 
 # how to use
 
